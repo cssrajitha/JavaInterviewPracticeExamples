@@ -1,0 +1,302 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Billing Detail View </title>
+  <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+     <link href="css/project.css" rel="stylesheet">
+     <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/project.js"></script>
+</head>
+
+<body>
+
+  <header>
+    <div class="ivr-head">
+     <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 col-sm-3">
+          <div class="ivr-clock1">
+          <canvas id="canvas" width="75" height="75"
+          >
+          </canvas>
+          <p> Onshare</p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6">
+          <div class="ivr-titile">
+            <h1> IVR Monitoring Dashboard</h1>
+          </div>
+        </div>
+      <div class="col-xs-12 col-sm-3">
+        <div class="ivr-clock2">
+          <canvas id="canvas1" width="75" height="75"
+          >
+          </canvas>
+          <p> VDSI</p>
+        </div>
+
+      </div>
+      </div>
+    </div>
+    </div>
+  </header>
+
+<!--for left side bar-->
+
+<div class="left-align ivr-height"> 
+</div>
+
+<!--for right side bar-->
+<div class="right-align ivr-height"> 
+</div>
+
+<!--ivr main-->
+
+<div class="ivr-main cloud ivr-height">
+
+<div class="container-fluid">
+
+<div class="text-center innerhead">
+  <h1> Cloud Watch Basic Metrics </h1>
+</div>
+
+
+ <div class="ivr-border">
+
+<div class="top-block">
+<div class="row pl">
+
+<div class="col-xs-12 col-sm-3">
+<div class="block b1 text-center">
+  <p> Loreal Ipusm </p>
+  <p> Loreal Ipusm </p>
+  <p> Loreal Ipusm </p>
+</div>
+</div> 
+
+<div class="col-xs-12 col-sm-3">
+<div class="block b2 text-center">
+  <p> Loreal Ipusm </p>
+
+</div>
+<div class="clearfix"></div>
+</div> 
+
+
+<div class="col-xs-12 col-sm-3">
+<div class="block b3 text-center">
+  <p> Loreal Ipusm </p>
+  <p> Loreal Ipusm </p>
+</div>
+<div class="clearfix"></div>
+</div> 
+
+<div class="col-xs-12 col-sm-3">
+<div class="block b4 text-center">
+  <p> Loreal Ipusm </p>
+</div>
+<div class="clearfix"></div>
+</div> 
+
+</div>
+<div class="clearfix"></div>
+</div>
+
+
+   <div class="table-responsive cloudtable">  
+     <h2 class="text-center">  EC2 Metrics </h2>        
+  <table class="table table-bordered table-striped">
+    <thead>
+      <tr>
+        <th> Application Name</th>
+        <th> Instance Name</th>
+        <th> Instance Id</th>
+        <th>Instance Type </th>
+        <th> Instance State </th>
+        <th> CPU Utilization</th>
+        <th> Network In </th>
+        <th> Network  Out</th>
+      </tr>
+    </thead>
+    <tbody class="whitebg">
+      <tr>
+        <td>Demo</td>
+        <td>Demo</td>
+         <td>Demo</td>
+        <td>Demo</td>
+         <td>Demo</td>
+        <td>Demo</td>
+         <td>Demo</td>
+        <td>Demo</td>
+      </tr>
+      <tr>
+        <td>Demo</td>
+        <td>Demo</td>
+         <td>Demo</td>
+        <td>Demo</td>
+         <td>Demo</td>
+        <td>Demo</td>
+         <td>Demo</td>
+        <td>Demo</td>
+      </tr>
+      <tr>
+        <td>Demo</td>
+        <td>Demo</td>
+         <td>Demo</td>
+        <td>Demo</td>
+         <td>Demo</td>
+        <td>Demo</td>
+         <td>Demo</td>
+        <td>Demo</td>
+      </tr>
+      <tr>
+        <td>Demo</td>
+        <td>Demo</td>
+         <td>Demo</td>
+        <td>Demo</td>
+         <td>Demo</td>
+        <td>Demo</td>
+         <td>Demo</td>
+        <td>Demo</td>
+      </tr>
+    </tbody>
+  </table>
+  </div> <!--table-responsive-->
+
+       <div class="cloudtable table-responsive">  
+     <h2 class="text-center">  EC2 Metrics </h2>   
+     <div class="row pl">
+          <div class="col-xs-12 col-sm-8">
+              <table class="table table-bordered table-striped">
+    <thead>
+      <tr>
+        <th> Application Name</th>
+        <th> Instance Name</th>
+        <th> Instance Id</th>
+        <th>Instance Type </th>
+        <th> Instance State </th>
+        <th> CPU Utilization</th>
+        <th> Network In </th>
+        <th> Network  Out</th>
+      </tr>
+    </thead>
+    <tbody class="whitebg">
+      <tr>
+        <td>Demo</td>
+        <td>Demo</td>
+         <td>Demo</td>
+        <td>Demo</td>
+         <td>Demo</td>
+        <td>Demo</td>
+         <td>Demo</td>
+        <td>Demo</td>
+      </tr>
+    </tbody>
+  </table>
+
+          </div>
+           <div class="col-xs-12 col-sm-4">
+            <div class="table-graph whitebg">
+                <h6> graph </h6>
+            </div>
+          </div>
+
+     </div>     
+
+  </div> <!--table-responsive-->
+
+
+     <div class="table-responsive cloudtable">  
+     <h2 class="text-center">  EC2 Metrics </h2>        
+  <table class="table table-bordered table-striped">
+    <thead>
+      <tr>
+        <th> Application Name</th>
+        <th> Instance Name</th>
+        <th> Instance Id</th>
+        <th>Instance Type </th>
+        <th> Instance State </th>
+        <th> CPU Utilization</th>
+        <th> Network In </th>
+        <th> Network  Out</th>
+      </tr>
+    </thead>
+    <tbody class="whitebg">
+      <tr>
+        <td>Demo</td>
+        <td>Demo</td>
+         <td>Demo</td>
+        <td>Demo</td>
+         <td>Demo</td>
+        <td>Demo</td>
+         <td>Demo</td>
+        <td>Demo</td>
+      </tr>
+    </tbody>
+  </table>
+  </div> <!--table-responsive-->
+
+
+     <div class="table-responsive cloudtable">  
+     <h2 class="text-center">  EC2 Metrics </h2>        
+  <table class="table table-bordered table-striped">
+    <thead>
+      <tr>
+        <th> Application Name</th>
+        <th> Instance Name</th>
+        <th> Instance Id</th>
+        <th>Instance Type </th>
+        <th> Instance State </th>
+        <th> CPU Utilization</th>
+        <th> Network In </th>
+        <th> Network  Out</th>
+      </tr>
+    </thead>
+    <tbody class="whitebg">
+      <tr>
+        <td>Demo</td>
+        <td>Demo</td>
+         <td>Demo</td>
+        <td>Demo</td>
+         <td>Demo</td>
+        <td>Demo</td>
+         <td>Demo</td>
+        <td>Demo</td>
+      </tr>
+    </tbody>
+  </table>
+  </div> <!--table-responsive-->
+
+
+
+</div>
+
+
+</div>
+
+</div>
+
+</div> <!--ivr main-->
+
+
+<footer>
+<div class="iv-footerbg"> 
+</div>
+</footer>
+
+
+     <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/project.js"></script>
+
+
+
+</body>
+
+</html>
