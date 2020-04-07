@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans  
+               http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="empBean" class="com.test.Employee">
+		<property name="name" value="rajitha"></property>
+		<property name="id" value="123"></property>
+		<property name="salary" value="10000"></property>
+		<property name="dept" ref="dept"></property>
+		<property name="phoneNumbers">
+			<set>
+
+				<value>9618640798</value>
+				<value>123456658</value>
+			</set>
+		</property>
+		<property name="worksIn">
+			<map>
+				<entry key="CSE">
+					<list>
+						<value>OS</value>
+						<value>JAVA</value>
+					</list>
+				</entry>
+				<entry key="ECE">
+					<list>
+						<value>MICROSER</value>
+					</list>
+				</entry>
+			</map>
+		</property>
+	</bean>
+
+	<bean id="dept" class="com.test.Department">
+		<property name="deptName" value="CSE" />
+		<property name="did" value="12345"></property>
+	</bean>
+
+
+
+
+</beans>  
